@@ -1,0 +1,131 @@
+
+/* CSS FOR JUEGO.HTML */
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Assets/Font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../Assets/Font/Teko-VariableFont_wght.ttf);
+}
+.background {
+    background: #bdb7bf url(../Assets/Image/bg3.jpg) no-repeat 100%;
+    background-size: cover;
+    min-height: 450px;
+    width: 100%;
+}   
+.background2 {
+    background: #bdb7bf url(../Assets/Image/b3.png) no-repeat 100%;
+    background-size: cover;
+    width: 100%;
+    min-height: 250px;
+    border: 8px solid #403e47;
+} 
+.cont{
+    margin: 0px auto;
+    width: 1400px;
+    padding-top: 20px;
+    color: #403e47;
+}
+h1{
+    font-family: Teko;
+    text-align: center;
+    font-size: 35px;
+}
+.cont h2{
+    color: #403e47;
+    font-family: Teko;
+    font-size: 30px;
+}
+.roboto{
+    font-family: Roboto;
+}
+/* GAMEMODE IMAGE  */
+.modosimg{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+/* GAMEMODE STYLE  */
+.modo{
+    width: 300px;
+    height: 200px;
+    border: 8px solid #403e47;
+    margin-right: 30px;
+}
+/* LAST IMG OF GAMEMODE */
+.modo2{
+    width: 300px;
+    height: 200px;
+    border: 8px solid #403e47;
+}
+/* GAMEMODE TEXT */
+.modotxt{
+    font-family: Teko;
+    font-size: 30px;
+    color: #f5f5f5;
+    position:relative;
+    top: 140px;
+    left: 140px;
+}
+/* SPACE BETWEEN */
+.dividir{
+    display: flex;
+    justify-content: space-between;
+}
+/* COLUMN LEFT  */
+.colizq{
+    width: 47%;
+}
+/* COLUMN RIGHT */
+.colder{
+    width: 47%;
+}
+/* SKILL IMAGE SIZE */
+.skillimg{
+    width: 500px;
+    height: 500px;
+    border: 8px solid #403e47;
+    
+}
+/* FLEX + CENTER WITH MARGIN 30PX  */
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+/* WEAPONGS BORDER */
+.arma{
+    border: 8px solid #403e47;
+    margin: 10px;
+}
+/* PARRAGRAF OF WEAPONGS  */
+.arma p{
+    margin: 0;
+    text-align: center;
+    background-color: #1170dd;  
+    padding: 10px 0px;
+    color: #f5f5f5;
+    font-family: Teko;
+    font-size: 30px;
+}
+/* WIDTH + PADDING OF IMAGE  */
+.arma img{
+    width: 150px; 
+    padding: 10px;
+}
+/* ALING TEXT CENTER  */
+.txtcenter{
+    text-align: center;
+}
+/* CLASS FOR ADD MARGIN  */
+.margen{
+    padding: 10px;
+}
+/* IFRAME BORDER  */
+iframe{
+    border: 4px solid #1170dd;
+}

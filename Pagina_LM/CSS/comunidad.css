@@ -1,0 +1,138 @@
+/* CSS FOR COMUNIDAD.HTML */
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Assets/Font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../Assets/Font/Teko-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #000000;
+}
+
+.background {
+    background: #bdb7bf url(../Assets/Image/bg2.jpg) no-repeat 100%;
+    background-size: cover;
+    width: 100%;
+    min-height: 900px;
+}
+/* CONTAINER  */
+.cont {
+    margin: 0px auto;
+    width: 1400px;
+    padding-top: 20px;
+    color: #f5f5f5;
+}
+/* COLUMN IZQ  */
+.izqpe {
+    width: 45%;
+}
+/* H2 STYLE  */
+h2 {
+    font-family: Teko;
+    font-size: 50px;
+}
+/* ROBOTO FONT  */
+.roboto {
+    font-family: Roboto;
+}
+/* OPACITY ON IMGS HOVER  */
+.imgs:hover {
+    opacity: 60%;
+}
+/* FLEX CLASS  */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+/* COLUMN SPACE-BETWEEN  */
+.derr {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+/* FORM STYLE  */
+form {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+/* GENERAL FORM STYLE  */
+form * {
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+/* H3 STYLE OF THE FORM  */
+form h3 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    font-family: Teko;
+}
+/* LABEL STYLE */
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* INPUT STYLE  */
+.input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    color: #ffd152;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* PLACEHOLDER OF THE FORM  */
+::placeholder {
+    color: #ffd152;
+}
+/* BUTTON STLYE  */
+button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* STYLE OF THE ASKS */
+.pregunta {
+    color: #ffd152;
+    font-family: Teko;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+/* STYLE OF THE ANSWERS  */
+.respuesta {
+    font-family: Roboto;
+}
+/* MARGIN BOT  */
+.espaciobot {
+    margin-bottom: 100px;
+    width: 800px;
+}
+/* FAQ STYLE  */
+.faq {
+    text-align: center;
+    font-size: 40px;
+}

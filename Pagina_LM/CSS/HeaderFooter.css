@@ -1,0 +1,173 @@
+
+/* CSS FOR ALL THE HEADERS AND FOOTER  */
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Assets/Font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../Assets/Font/Teko-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0px;
+}
+
+* {
+    font-family: Roboto;
+}
+/* CONTAINER FOR NAV  */
+.contenedor {
+    margin: 0px auto;
+    border-bottom: 5px solid #1170dd;
+    position: sticky;
+    top: 0px;
+    background-color: #f5f5f5;
+}
+/* CONTAINER 1500PX OF THE NAV  */
+.contenedornav {
+    margin: 0px auto;
+    width: 1500px;
+}
+/* BACKGROUND IMAGE */
+.bg {
+    background-image: url(../Assets/Image/Logo.png);
+    background-position: 0 30px;
+    background-repeat: no-repeat;
+    width: 150px;
+}
+/* REMOVE PADDING OF A INSIDE BG  */
+.bg a{
+    padding: 0px;
+}
+/* DEFAULT STYLE */
+.default {
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    color: #403e47;
+    text-decoration: none;
+    font-family: Teko;
+    font-weight: 400;
+    line-height: .9;
+    height: 100%;
+}
+/* UL OF NAV  */
+ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+/* LI OF NAV */
+li {
+    display: flex;
+    align-items: center;
+}
+/* BUTTOMS OF NAV LESS THE LAST ONE  */
+.back:hover {
+    background-color: #1170dd;
+    color: #f5f5f5;
+}
+/* BUTTONS OF THE NAV LESS THE LAST ONE  */
+.back {
+    box-sizing: border-box;
+    width: 150px;
+}
+/* LAST BUTTOM OF THE NAV, DOESN'T HAVE BOX SIZING INTENCIONALLY !  */
+.end {
+    text-transform: uppercase;
+    display: flex;
+    background-color: #ffba00;
+    color: #f5f5f5;
+    width: 215px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+/* HOVER OF THE LAST BUTTOM  */
+.end:hover {
+    background-color: #ffd152;
+}
+/* FOOTER DEFAULT STYLE  */
+footer {
+    display: block;
+    background-color: #070707;
+    padding: 2%;
+    border-top: 5px solid #1170dd;
+    color: #f5f5f5;
+}
+/* STYLE OF THE FOOTER UL  */
+footer ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+/* STYLE OF FOOTER A  */
+footer a {
+    padding: 0px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+/* STYLE OF FOOTER DIV  */
+footer>div {
+    margin: 30px 0;
+}
+/* STYLE OF THE LIST OF FOOTER NAV  */
+footer .footer-nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 15px;
+    border-left: 1px solid #3f3f40;
+    height: 25px;
+}
+/* BORDER RIGHT FOR FOOTER  */
+.der {
+    border-right: 1px solid #3f3f40;
+}
+/* CLASS FOR TEXT ALING CENTER  */
+.center {
+    text-align: center;
+}
+.arriba{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    display: flex;
+    background-color: #ffba00;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 40px;
+}
+.arriba:hover{
+    background-color: #ffd152;
+}
+.amarillo{
+    color: #ffd152;
+}
+.amarillo:hover{
+    color: #1170dd;
+}
+.lista:hover{
+    color: #ffd152;
+}
